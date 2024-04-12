@@ -12,8 +12,15 @@ function App() {
     if(counter >= 20){
       {alert("Value can not be greater than 20")}
     }else{
-
+      // it will update the value by 1 
       setCounter(counter+1);
+      setCounter(counter+1);
+      setCounter(counter+1);
+
+      // If we want to increment all then we have to perform it like this way
+      // setCounter(prevCounter => prevCounter+1 );
+      // setCounter(prevCounter => prevCounter+1 );
+      // setCounter(prevCounter => prevCounter+1 );
     }
 
   }
